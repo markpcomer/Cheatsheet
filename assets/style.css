@@ -30,12 +30,12 @@ header p {
     font-size: 12px;
 }
 
-h2{
-    
-}
 
 pre{
-    
+    text-align: left;
+    line-height: 20px;
+    white-space: pre-line;
+    padding: 5% 0 5% 2%;
 }
 
 footer{
@@ -63,14 +63,11 @@ footer{
     margin-left: auto;
     margin-right: auto;
     padding: 1% 0 1% 2%;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 8px;
     color: var(--main-font-color);
 }
 
-.card h1 {
-
-}
 
 .card p{
     color: var(--main-font-color);
@@ -78,7 +75,7 @@ footer{
     font-size: 12px;
 }
 
-.linear-gradient-background{
+.code-card{
     background-image: linear-gradient(
         rgba(232, 102, 236, 0.3) 0%,
         rgba(232, 102, 236, 0.6) 100%
@@ -87,7 +84,17 @@ footer{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    
+}
+
+.code-card .card-header {
+    transition: all 0.5s ease-in-out;
+}
+
+.code-card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px
+rgba(232, 102, 236, 1), 0 0 15px
+rgba(232, 102, 236, 1);
 }
 
 
