@@ -1,32 +1,93 @@
 :root{
     --main-font-color: rgba(232, 102, 236, 1);
+    
 }
+/*
+.open-sans-<uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  } */
 
 body{
     background-color: black;
     color:white;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1{
     color: var(--main-font-color);
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    padding: 0 20%;
+    margin-bottom: 5%;
+    font-size: 12px;
 }
 
 h2{
-    border: 5px solid white;
-    border-radius: 15px;
-    color: var(--main-font-color);
+    
+}
+
+pre{
+    
 }
 
 footer{
     color: var(--main-font-color);
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .card{
-    border: 3px white dashed;
+    border: 1px white dashed;
+    width: 95%;
+    margin-bottom: 10%;
+    
+}
+
+.card-header{
+    margin-top: -20px;
+    background-color: black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1% 0 1% 2%;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: var(--main-font-color);
+}
+
+.card h1 {
+
 }
 
 .card p{
     color: var(--main-font-color);
+    padding: 0 10%;
+    font-size: 12px;
+}
+
+.linear-gradient-background{
+    background-image: linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 102, 236, 0.6) 100%
+    );
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 
