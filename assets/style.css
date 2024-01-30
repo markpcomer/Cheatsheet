@@ -1,4 +1,33 @@
+:root{
+    --main-font-color: rgba(232, 102, 236, 1);
+}
+
 body{
     background-color: black;
     color:white;
 }
+
+h1{
+    color: var(--main-font-color);
+}
+
+h2{
+    border: 5px solid white;
+    border-radius: 15px;
+    color: var(--main-font-color);
+}
+
+footer{
+    color: var(--main-font-color);
+}
+
+.card{
+    border: 3px white dashed;
+}
+
+.card p{
+    color: var(--main-font-color);
+}
+
+
+
